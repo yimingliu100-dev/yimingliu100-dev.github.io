@@ -1,12 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import { newsItems } from "./site-data";
 import { SiteFooter, SiteHeader } from "./site-shell";
-
-const news = [
-  ["2026", "Founding President Best Paper Award", "Chinese-American Professors in Environmental Engineering and Science"],
-  ["2025", "Outstanding Oral Presentation Award", "19th Chinese Environmental Conference"],
-  ["2025", "New work in Nature Communications", "Electrical control of CaCO₃ nucleation and crystal growth"],
-];
 
 export default function Home() {
   return (
@@ -44,16 +39,16 @@ export default function Home() {
       </section>
 
       <section className="lab-news">
-        <div className="news-heading"><div><span>Latest</span><h2>News & highlights</h2></div><Link href="/about/">About Yiming →</Link></div>
+        <div className="news-heading"><div><span>Latest</span><h2>News & highlights</h2></div><Link href="/news/">All news →</Link></div>
         <div className="news-list">
-          {news.map(([year, title, detail]) => <article key={title}><time>{year}</time><div><h3>{title}</h3><p>{detail}</p></div></article>)}
+          {newsItems.map(([year, title, detail]) => <article key={title}><time>{year}</time><div><h3>{title}</h3><p>{detail}</p></div></article>)}
         </div>
       </section>
 
       <section className="lab-join">
         <div><span>Collaboration</span><h2>Interested in working together?</h2></div>
         <p>I welcome conversations with researchers, students, and partners working on water–material interfaces, selective separations, and circular resource systems.</p>
-        <Link href="/connect/">Connect with us <span>→</span></Link>
+        <Link href="/join-us/">Join the group <span>→</span></Link>
       </section>
       <SiteFooter />
     </main>

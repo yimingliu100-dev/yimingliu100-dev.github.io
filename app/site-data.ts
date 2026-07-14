@@ -1,4 +1,5 @@
 export const scholar = "https://scholar.google.com/citations?user=vJ7KvzkAAAAJ&hl=en";
+export const linkedin = "https://www.linkedin.com/in/yiming-liu-558a7198";
 
 export const researchAreas = [
   {
@@ -72,6 +73,16 @@ export const education = [
   ["2018", "B.S., Environmental Engineering", "Tsinghua University"],
 ];
 
+export const postdoctoralTraining = [
+  ["2023-present", "Rice Academy Postdoctoral Fellow", "Rice University", "Advisor: Qilin Li | Mentor: Pedro J. J. Alvarez"],
+];
+
+export const newsItems = [
+  ["2026", "Founding President Best Paper Award", "Chinese-American Professors in Environmental Engineering and Science"],
+  ["2025", "Outstanding Oral Presentation Award", "19th Chinese Environmental Conference"],
+  ["2025", "New work in Nature Communications", "Electrical control of CaCO3 nucleation and crystal growth"],
+];
+
 export const awards = [
   ["2026", "Founding President Best Paper Award", "Chinese-American Professors in Environmental Engineering and Science"],
   ["2025", "Outstanding Oral Presentation Award", "19th Chinese Environmental Conference"],
@@ -82,7 +93,7 @@ export const awards = [
 ];
 
 export const profileLinks = [
+  ["LinkedIn", linkedin],
   ["Google Scholar", scholar],
   ["ORCID", "https://orcid.org/0000-0003-4761-5531"],
-  ["GitHub", "https://github.com/yimingliu100-dev"],
 ];

@@ -3,10 +3,10 @@ import Link from "next/link";
 const navigation = [
   ["Home", "/"],
   ["Research", "/research/"],
-  ["Publications", "/publications/"],
-  ["About", "/about/"],
-  ["CV", "/cv/"],
-  ["Connect", "/connect/"],
+  ["Team", "/team/"],
+  ["News", "/news/"],
+  ["Join Us", "/join-us/"],
+  ["Contact", "/contact/"],
 ];
 
 export function SiteHeader({ overlay = false }: { overlay?: boolean }) {
@@ -21,7 +21,6 @@ export function SiteHeader({ overlay = false }: { overlay?: boolean }) {
       <nav className="main-nav" aria-label="Main navigation">
         {navigation.map(([label, href]) => <Link key={href} href={href}>{label}</Link>)}
       </nav>
-      <a className="header-cta" href="mailto:yimingliu@rice.edu">Contact</a>
     </header>
   );
 }
