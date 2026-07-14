@@ -96,13 +96,18 @@ h1, h2, h3, blockquote { font-family: Arial, Helvetica, sans-serif; font-weight:
 
 .research-section { background: var(--paper); }
 .research-grid { display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid var(--line); }
-.research-card { min-height: 430px; padding: 34px; display: flex; flex-direction: column; border-right: 1px solid var(--line); }
+.research-card { min-height: 680px; padding: 34px; display: flex; flex-direction: column; border-right: 1px solid var(--line); }
 .research-card:last-child { border-right: 0; }
 .card-top { display: flex; justify-content: space-between; color: var(--blue); font-size: 12px; }
 .research-card h2 { margin: 70px 0 20px; font-size: 34px; line-height: 1.08; }
 .research-card p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.75; }
-.research-card ul { margin: auto 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 7px; list-style: none; }
+.research-card ul { margin: 24px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 7px; list-style: none; }
 .research-card li { padding: 7px 9px; border: 1px solid var(--line); color: var(--muted); font-size: 10px; }
+.research-publications { margin-top: auto; padding-top: 34px; border-top: 1px solid var(--line); }
+.research-publications > strong { display: block; margin-bottom: 14px; color: var(--navy); font-size: 10px; letter-spacing: .14em; text-transform: uppercase; }
+.research-publications a { display: block; padding: 13px 0; border-bottom: 1px solid var(--line); color: var(--navy); font-size: 13px; line-height: 1.45; }
+.research-publications a span { display: block; margin-bottom: 5px; color: var(--blue); font-size: 9px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.research-publications a:hover { color: var(--blue); }
 .method-section { color: white; background: var(--navy); }
 .method-section h2 { margin-top: 25px; color: white; }
 .eyebrow.light { color: var(--aqua); }
@@ -190,7 +195,6 @@ h1, h2, h3, blockquote { font-family: Arial, Helvetica, sans-serif; font-weight:
 .pi-photo { width: 100%; height: auto; aspect-ratio: 4 / 5; display: block; object-fit: cover; object-position: 50% 48%; }
 .pi-profile h2 { margin: 24px 0 8px; font-size: clamp(48px, 5vw, 74px); line-height: 1; }
 .pi-role { margin: 0 0 28px; color: var(--blue); font-size: 12px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
-.pi-bio { margin: 0; max-width: 760px; color: var(--muted); font-size: 17px; line-height: 1.8; }
 .pi-links { margin: 34px 0 58px; display: flex; flex-wrap: wrap; gap: 12px; }
 .pi-links a { padding: 12px 15px; border: 1px solid var(--line); color: var(--navy); font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; }
 .pi-links a:hover { border-color: var(--gold); }

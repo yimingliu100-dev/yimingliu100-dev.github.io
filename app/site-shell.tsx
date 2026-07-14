@@ -3,7 +3,7 @@ import Link from "next/link";
 const navigation = [
   { label: "Home", href: "/" },
   { label: "Research", href: "/research/" },
-  { label: "Publications", href: "https://scholar.google.com/citations?user=vJ7KvzkAAAAJ&hl=en", external: true },
+  { label: "Publications", href: "/publications/" },
   { label: "Team", href: "/team/" },
   { label: "News", href: "/news/" },
   { label: "Join Us", href: "/join-us/" },
@@ -20,9 +20,7 @@ export function SiteHeader({ overlay = false }: { overlay?: boolean }) {
         <span className="brand-copy"><strong>Yiming Liu Research Group</strong><small>Interfacial Science · Circular Water Systems</small></span>
       </Link>
       <nav className="main-nav" aria-label="Main navigation">
-        {navigation.map(({ label, href, external }) => external
-          ? <a key={href} href={href} target="_blank" rel="noreferrer">{label}</a>
-          : <Link key={href} href={href}>{label}</Link>)}
+        {navigation.map(({ label, href }) => <Link key={href} href={href}>{label}</Link>)}
       </nav>
     </header>
   );

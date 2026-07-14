@@ -10,7 +10,7 @@ export default function PublicationsPage() {
       <SiteHeader />
       <PageHero eyebrow="Selected work" title="Research with real-world reach." text="Peer-reviewed work spanning interfacial science, selective separations, desalination, carbon management, and low-carbon materials processing." />
       <section className="section publication-section inner-section">
-        <div className="publication-toolbar"><p>Selected publications</p><a className="button outline-light" href={scholar} target="_blank" rel="noreferrer">Complete profile <span>↗</span></a></div>
+        <div className="publication-toolbar"><p>Selected publications</p><a className="button outline-light" href={scholar} target="_blank" rel="noreferrer">Complete publication list <span>↗</span></a></div>
         <div className="publication-list">
           {publications.map((pub) => (
             <a className="publication" key={pub.title} href={pub.href} target="_blank" rel="noreferrer">

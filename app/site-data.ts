@@ -7,18 +7,30 @@ export const researchAreas = [
     title: "Selective resource recovery",
     text: "Engineering ligand-functionalized metal-organic frameworks and ion-exchange membranes to recover rare earth elements and lithium from complex brines.",
     tags: ["Rare earth elements", "Lithium", "MOFs & electrodialysis"],
+    publications: [
+      { authorship: "Co-authored", title: "A rationally designed scalable thin film nanocomposite cation exchange membrane for precise lithium extraction", href: "https://doi.org/10.1038/s41467-025-63660-3" },
+      { authorship: "Co-authored", title: "Reactive carbon capture using saline water: evaluation of prospective sources, processes, and products", href: "https://doi.org/10.1039/D4CS00701H" },
+    ],
   },
   {
     number: "02",
     title: "Water–material interfaces",
     text: "Understanding and controlling nucleation, scaling, and molecular transport where water meets membranes, electrodes, and heat-transfer surfaces.",
     tags: ["Interfacial science", "Electrochemistry", "Mineral scaling"],
+    publications: [
+      { authorship: "First-authored", title: "Mitigating CaCO₃ crystal nucleation and growth through continuous ion displacement via alternating electric fields", href: "https://doi.org/10.1038/s41467-024-55176-z" },
+      { authorship: "Co-authored", title: "ZeroCAL: Eliminating carbon dioxide emissions from limestone’s decomposition to decarbonize cement production", href: "https://doi.org/10.1021/acssuschemeng.4c03193" },
+    ],
   },
   {
     number: "03",
     title: "Circular brine systems",
     text: "Reimagining hypersaline water as a source of water, energy, and materials through high-recovery separations and efficient process design.",
     tags: ["Membrane distillation", "Desalination", "Process intensification"],
+    publications: [
+      { authorship: "First-authored", title: "Multistage surface-heated vacuum membrane distillation process enables high water recovery and excellent heat utilization", href: "https://doi.org/10.1021/acs.est.2c07094" },
+      { authorship: "First-authored", title: "Desalinating a real hyper-saline pre-treated produced water via direct-heat vacuum membrane distillation", href: "https://doi.org/10.1016/j.watres.2022.118503" },
+    ],
   },
 ];
 
@@ -35,14 +47,14 @@ export const publications = [
     journal: "Nature Communications",
     title: "A rationally designed scalable thin film nanocomposite cation exchange membrane for precise lithium extraction",
     note: "Next-generation selective electrodialysis",
-    href: scholar,
+    href: "https://doi.org/10.1038/s41467-025-63660-3",
   },
   {
     year: "2025",
     journal: "Chemical Society Reviews",
     title: "Reactive carbon capture using saline water: evaluation of prospective sources, processes, and products",
     note: "Saline water as a carbon-management resource",
-    href: scholar,
+    href: "https://doi.org/10.1039/D4CS00701H",
   },
   {
     year: "2024",
@@ -56,14 +68,14 @@ export const publications = [
     journal: "Environmental Science & Technology",
     title: "Multistage surface-heated vacuum membrane distillation process enables high water recovery and excellent heat utilization",
     note: "Heat-efficient hypersaline desalination",
-    href: scholar,
+    href: "https://doi.org/10.1021/acs.est.2c07094",
   },
   {
     year: "2022",
     journal: "Water Research",
     title: "Desalinating a real hyper-saline pre-treated produced water via direct-heat vacuum membrane distillation",
     note: "Real-water validation at high recovery",
-    href: scholar,
+    href: "https://doi.org/10.1016/j.watres.2022.118503",
   },
 ];
 
@@ -74,7 +86,7 @@ export const education = [
 ];
 
 export const postdoctoralTraining = [
-  ["2023-present", "Rice Academy Postdoctoral Fellow", "Rice University", "Advisor: Qilin Li | Mentor: Pedro J. J. Alvarez"],
+  ["2023–2026", "Rice Academy Postdoctoral Fellow", "Rice University"],
 ];
 
 export const newsItems = [
