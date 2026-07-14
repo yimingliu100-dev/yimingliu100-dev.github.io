@@ -13,7 +13,9 @@ export function SiteHeader({ overlay = false }: { overlay?: boolean }) {
   return (
     <header className={`site-header${overlay ? " site-header-overlay" : ""}`}>
       <Link className="brand" href="/" aria-label="Yiming Liu, home">
-        <span className="brand-mark">YL</span>
+        <span className="brand-institution-mark" aria-hidden="true">
+          <img src="/sdstate-logo.svg" alt="" />
+        </span>
         <span className="brand-copy"><strong>Yiming Liu Research Group</strong><small>Interfacial Science · Circular Water Systems</small></span>
       </Link>
       <nav className="main-nav" aria-label="Main navigation">

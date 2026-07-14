@@ -22,8 +22,10 @@ h1, h2, h3, blockquote { font-family: Georgia, "Times New Roman", serif; font-we
 .site-header { min-height: 92px; padding: 14px clamp(24px, 5vw, 78px); display: flex; align-items: center; justify-content: space-between; gap: 30px; position: relative; z-index: 10; background: var(--paper); border-bottom: 1px solid var(--line); }
 .site-header-overlay { position: absolute; inset: 0 0 auto; color: white; background: linear-gradient(to bottom, rgba(8,29,43,.85), rgba(8,29,43,0)); border-bottom-color: rgba(255,255,255,.28); }
 .brand { display: flex; align-items: center; gap: 13px; min-width: 250px; }
+.brand-institution-mark { width: 48px; height: 48px; padding: 7px; display: grid; place-items: center; flex: 0 0 auto; background: #0033a0; }
+.brand-institution-mark img { width: 100%; height: 100%; display: block; object-fit: contain; }
 .brand-mark { width: 48px; height: 48px; display: grid; place-items: center; flex: 0 0 auto; color: white; background: var(--navy); border: 1px solid currentColor; font-family: Georgia, serif; font-size: 16px; }
-.site-header-overlay .brand-mark { background: rgba(16,43,66,.7); }
+.site-header-overlay .brand-institution-mark { box-shadow: 0 0 0 1px rgba(255,255,255,.42); }
 .brand-copy strong, .brand-copy small { display: block; }
 .brand-copy strong { font-family: Georgia, serif; font-size: 18px; font-weight: 400; letter-spacing: .01em; }
 .brand-copy small { margin-top: 4px; font-size: 9px; text-transform: uppercase; letter-spacing: .1em; opacity: .72; }
