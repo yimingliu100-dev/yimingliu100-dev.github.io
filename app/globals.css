@@ -63,13 +63,19 @@ h1, h2, h3, blockquote { font-family: Arial, Helvetica, sans-serif; font-weight:
 .focus-heading > span { color: var(--aqua); }
 .focus-heading h2 { margin: 0; font-size: clamp(44px, 5.3vw, 76px); line-height: 1; letter-spacing: -.04em; }
 .focus-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid rgba(255,255,255,.35); }
-.focus-grid a { min-height: 370px; padding: 34px 34px 28px 0; border-right: 1px solid rgba(255,255,255,.25); transition: background .2s ease, padding .2s ease; }
-.focus-grid a + a { padding-left: 34px; }
-.focus-grid a:last-child { border-right: 0; }
-.focus-grid a:hover { background: rgba(255,255,255,.06); padding-right: 28px; }
-.focus-grid span { color: var(--aqua); font-size: 12px; }
-.focus-grid h3 { margin: 75px 0 24px; font-size: clamp(29px, 3vw, 42px); line-height: 1.08; }
-.focus-grid p { color: #bdcad1; font-size: 14px; line-height: 1.75; }
+.focus-grid article { min-height: 600px; padding: 34px 34px 30px 0; border-right: 1px solid rgba(255,255,255,.25); }
+.focus-grid article + article { padding-left: 34px; }
+.focus-grid article:last-child { border-right: 0; }
+.focus-area-link { display: block; }
+.focus-area-link > span { color: var(--aqua); font-size: 12px; }
+.focus-area-link h3 { margin: 48px 0 20px; font-size: clamp(27px, 2.7vw, 39px); line-height: 1.08; }
+.focus-area-link p { color: #bdcad1; font-size: 14px; line-height: 1.65; }
+.focus-area-link:hover h3 { color: var(--aqua); }
+.focus-publications { margin-top: 28px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.25); }
+.focus-publications > strong { display: block; margin-bottom: 12px; color: var(--aqua); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; }
+.focus-publications a { display: block; padding: 10px 0; color: #e4ecef; font-size: 12px; line-height: 1.45; border-top: 1px solid rgba(255,255,255,.12); }
+.focus-publications a span { display: block; margin-bottom: 3px; color: var(--aqua); font-size: 9px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.focus-publications a:hover { color: white; }
 
 .lab-news { padding: clamp(80px, 10vw, 140px) clamp(24px, 9vw, 145px); background: var(--cream); }
 .news-heading { display: flex; justify-content: space-between; align-items: end; gap: 35px; margin-bottom: 45px; }
@@ -256,8 +262,8 @@ footer p { color: var(--muted); }
   .masthead-content h1 { font-size: clamp(40px, 11vw, 58px); }
   .focus-heading, .news-heading, .cv-toolbar { align-items: flex-start; flex-direction: column; }
   .focus-grid, .method-grid, .research-grid, .academic-life-section, .join-grid { grid-template-columns: 1fr; }
-  .focus-grid a, .focus-grid a + a { min-height: 300px; padding: 30px 0; border-right: 0; border-bottom: 1px solid rgba(255,255,255,.25); }
-  .focus-grid h3 { margin-top: 38px; }
+  .focus-grid article, .focus-grid article + article { min-height: auto; padding: 30px 0; border-right: 0; border-bottom: 1px solid rgba(255,255,255,.25); }
+  .focus-area-link h3 { margin-top: 38px; }
   .news-list article { grid-template-columns: 70px 1fr; gap: 20px; padding: 20px 0; }
   .research-card { min-height: 350px; border-right: 0; border-bottom: 1px solid var(--line); }
   .research-card h2 { margin-top: 42px; }

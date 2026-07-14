@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { newsItems } from "./site-data";
+import { newsItems, researchAreas } from "./site-data";
 import { SiteFooter, SiteHeader } from "./site-shell";
 
 export default function Home() {
@@ -36,9 +36,24 @@ export default function Home() {
       <section className="lab-focus">
         <div className="focus-heading"><span>Research directions</span><h2>Science designed<br />for circularity.</h2></div>
         <div className="focus-grid">
-          <Link href="/research/"><span>01</span><h3>Critical mineral recovery</h3><p>Recovering lithium and rare earth elements from complex water streams using selective membranes and functional materials.</p></Link>
-          <Link href="/research/"><span>02</span><h3>Material-water interface</h3><p>Controlling nucleation, scaling, and molecular transport at membranes, electrodes, and heat-transfer surfaces.</p></Link>
-          <Link href="/research/"><span>03</span><h3>Brine concentration process</h3><p>Transforming hypersaline water into a source of water, energy, and materials through efficient process design.</p></Link>
+          {researchAreas.map((area) => (
+            <article key={area.number}>
+              <Link className="focus-area-link" href="/research/">
+                <span>{area.number}</span>
+                <h3>{area.title}</h3>
+                <p>{area.text}</p>
+              </Link>
+              <div className="focus-publications">
+                <strong>Associated publications</strong>
+                {area.publications.map((publication) => (
+                  <a key={publication.title} href={publication.href} target="_blank" rel="noreferrer">
+                    <span>{publication.authorship}</span>
+                    {publication.title}
+                  </a>
+                ))}
+              </div>
+            </article>
+          ))}
         </div>
       </section>
 

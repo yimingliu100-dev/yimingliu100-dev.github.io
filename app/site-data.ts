@@ -8,8 +8,8 @@ export const researchAreas = [
     text: "Engineering ligand-functionalized metal-organic frameworks and ion-exchange membranes to recover rare earth elements and lithium from complex brines.",
     tags: ["Rare earth elements", "Lithium", "MOFs & electrodialysis"],
     publications: [
-      { authorship: "Co-authored", title: "A rationally designed scalable thin film nanocomposite cation exchange membrane for precise lithium extraction", href: "https://doi.org/10.1038/s41467-025-63660-3" },
-      { authorship: "Co-authored", title: "Reactive carbon capture using saline water: evaluation of prospective sources, processes, and products", href: "https://doi.org/10.1039/D4CS00701H" },
+      { authorship: "First-Authored", title: "Selective extraction of rare earth elements using organophosphorus ligand modified metal organic frameworks", href: "https://aeesp2025.exordo.com/programme/presentation/210" },
+      { authorship: "First-Authored", title: "Monovalent-selective electrodialysis for lithium extraction from brine: role of operating conditions and water chemistry", href: "https://aiche.confex.com/aiche/icom26/meetingapp.cgi/Paper/727832" },
     ],
   },
   {
@@ -18,8 +18,8 @@ export const researchAreas = [
     text: "Understanding and controlling nucleation, scaling, and molecular transport where water meets membranes, electrodes, and heat-transfer surfaces.",
     tags: ["Interfacial science", "Electrochemistry", "Mineral scaling"],
     publications: [
-      { authorship: "First-authored", title: "Mitigating CaCO₃ crystal nucleation and growth through continuous ion displacement via alternating electric fields", href: "https://doi.org/10.1038/s41467-024-55176-z" },
-      { authorship: "Co-authored", title: "A rationally designed scalable thin film nanocomposite cation exchange membrane for precise lithium extraction", href: "https://doi.org/10.1038/s41467-025-63660-3" },
+      { authorship: "First-Authored", title: "Mitigating CaCO₃ crystal nucleation and growth through continuous ion displacement via alternating electric fields", href: "https://doi.org/10.1038/s41467-024-55176-z" },
+      { authorship: "First-Authored", title: "Desalinating a real hyper-saline pre-treated produced water via direct-heat vacuum membrane distillation", href: "https://doi.org/10.1016/j.watres.2022.118503" },
     ],
   },
   {
@@ -28,8 +28,8 @@ export const researchAreas = [
     text: "Reimagining hypersaline water as a source of water, energy, and materials through high-recovery separations and efficient process design.",
     tags: ["Membrane distillation", "Desalination", "Process intensification"],
     publications: [
-      { authorship: "First-authored", title: "Multistage surface-heated vacuum membrane distillation process enables high water recovery and excellent heat utilization", href: "https://doi.org/10.1021/acs.est.2c07094" },
-      { authorship: "First-authored", title: "Desalinating a real hyper-saline pre-treated produced water via direct-heat vacuum membrane distillation", href: "https://doi.org/10.1016/j.watres.2022.118503" },
+      { authorship: "First-Authored", title: "Multistage surface-heated vacuum membrane distillation process enables high water recovery and excellent heat utilization", href: "https://doi.org/10.1021/acs.est.2c07094" },
+      { authorship: "First-Authored", title: "Conducting thermal energy to the membrane/water interface for the enhanced desalination of hypersaline brines using membrane distillation", href: "https://doi.org/10.1016/j.memsci.2021.119188" },
     ],
   },
 ];
