@@ -19,7 +19,7 @@ export const researchAreas = [
     tags: ["Interfacial science", "Electrochemistry", "Mineral scaling"],
     publications: [
       { authorship: "First-authored", title: "Mitigating CaCO₃ crystal nucleation and growth through continuous ion displacement via alternating electric fields", href: "https://doi.org/10.1038/s41467-024-55176-z" },
-      { authorship: "Co-authored", title: "ZeroCAL: Eliminating carbon dioxide emissions from limestone’s decomposition to decarbonize cement production", href: "https://doi.org/10.1021/acssuschemeng.4c03193" },
+      { authorship: "Co-authored", title: "A rationally designed scalable thin film nanocomposite cation exchange membrane for precise lithium extraction", href: "https://doi.org/10.1038/s41467-025-63660-3" },
     ],
   },
   {
@@ -55,13 +55,6 @@ export const publications = [
     title: "Reactive carbon capture using saline water: evaluation of prospective sources, processes, and products",
     note: "Saline water as a carbon-management resource",
     href: "https://doi.org/10.1039/D4CS00701H",
-  },
-  {
-    year: "2024",
-    journal: "ACS Sustainable Chemistry & Engineering",
-    title: "ZeroCAL: Eliminating carbon dioxide emissions from limestone’s decomposition to decarbonize cement production",
-    note: "Low-carbon materials processing",
-    href: "https://doi.org/10.1021/acssuschemeng.4c03193",
   },
   {
     year: "2023",
