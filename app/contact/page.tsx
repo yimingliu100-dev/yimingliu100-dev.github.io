@@ -6,14 +6,23 @@ export const metadata: Metadata = { title: "Contact | Yiming Liu Research Group"
 
 export default function ContactPage() {
   return (
-    <main className="connect-page">
+    <main>
       <SiteHeader />
-      <section className="section connect-directory">
-        <div className="connect-primary"><p>For research, collaboration, mentoring, and professional opportunities:</p><a className="button ivory" href="mailto:yiming.liu@sdstate.edu">yiming.liu@sdstate.edu <span>↗</span></a></div>
-        <div className="connect-links">
-          {profileLinks.map(([label, href]) => <a key={label} href={href} target="_blank" rel="noreferrer"><span>{label}</span><b>↗</b></a>)}
-          <a href="/cv/"><span>Curriculum vitae</span><b>→</b></a>
-          <a href="mailto:yiming.liu@sdstate.edu"><span>Email</span><b>↗</b></a>
+      <section className="section contact-section">
+        <div className="contact-identity">
+          <p className="eyebrow"><span /> Contact</p>
+          <h1>Yiming Liu, Ph.D.</h1>
+          <p>Assistant Professor</p>
+          <p>Department of Civil and Environmental Engineering</p>
+          <p>Jerome J. Lohr College of Engineering</p>
+        </div>
+        <div className="contact-details">
+          <div><span>Email</span><a href="mailto:yiming.liu@sdstate.edu">yiming.liu@sdstate.edu</a></div>
+          <div><span>University</span><p>South Dakota State University</p></div>
+          <div><span>Location</span><p>Brookings, South Dakota 57007</p></div>
+          <div className="contact-profile-links">
+            {profileLinks.map(([label, href]) => <a key={label} href={href} target="_blank" rel="noreferrer">{label} <b>↗</b></a>)}
+          </div>
         </div>
       </section>
       <SiteFooter />

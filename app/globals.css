@@ -172,6 +172,19 @@ h1, h2, h3, blockquote { font-family: Arial, Helvetica, sans-serif; font-weight:
 .connect-links { border-top: 1px solid rgba(255,255,255,.35); }
 .connect-links a { min-height: 65px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,.3); font-size: 13px; font-weight: 700; }
 
+.contact-section { min-height: 660px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(360px, .8fr); gap: clamp(60px, 10vw, 150px); align-items: start; background: var(--paper); }
+.contact-identity h1 { margin: 30px 0 34px; max-width: 760px; color: var(--navy); font-size: clamp(46px, 5.8vw, 82px); line-height: 1; letter-spacing: -.045em; }
+.contact-identity > p:not(.eyebrow) { margin: 0 0 10px; color: var(--muted); font-size: 17px; line-height: 1.55; }
+.contact-identity > p:nth-of-type(2) { color: var(--navy); font-weight: 700; }
+.contact-details { border-top: 3px solid var(--gold); }
+.contact-details > div:not(.contact-profile-links) { padding: 24px 0; border-bottom: 1px solid var(--line); }
+.contact-details span { display: block; margin-bottom: 9px; color: var(--blue); font-size: 10px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+.contact-details p, .contact-details a { margin: 0; color: var(--ink); font-size: 18px; line-height: 1.55; }
+.contact-details > div > a { color: var(--blue); font-weight: 700; }
+.contact-profile-links { padding-top: 30px; display: flex; flex-wrap: wrap; gap: 10px; }
+.contact-profile-links a { padding: 11px 14px; border: 1px solid var(--line); color: var(--navy); font-size: 11px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+.contact-profile-links a:hover { border-color: var(--gold); }
+
 .pi-section { display: grid; grid-template-columns: minmax(300px, .8fr) minmax(0, 1.2fr); gap: clamp(55px, 8vw, 125px); align-items: start; background: var(--paper); }
 .pi-portrait { position: sticky; top: 30px; }
 .pi-photo { width: 100%; height: auto; aspect-ratio: 4 / 5; display: block; object-fit: cover; object-position: 50% 48%; }
@@ -219,7 +232,7 @@ footer p { color: var(--muted); }
   .page-hero > p:last-child { max-width: 720px; }
   .lab-join { grid-template-columns: 1fr; align-items: start; }
   .lab-join > a { justify-self: start; }
-  .about-section, .recognition-section, .connect-directory, .pi-section, .join-contact { grid-template-columns: 1fr; }
+  .about-section, .recognition-section, .connect-directory, .contact-section, .pi-section, .join-contact { grid-template-columns: 1fr; }
   .pi-portrait { position: static; max-width: 620px; }
 }
 

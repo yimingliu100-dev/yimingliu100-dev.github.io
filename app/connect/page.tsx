@@ -13,7 +13,6 @@ export default function ConnectPage() {
         <div className="connect-primary"><p>For research collaborations, speaking invitations, mentoring, and professional opportunities:</p><a className="button ivory" href="mailto:yiming.liu@sdstate.edu">yiming.liu@sdstate.edu <span>↗</span></a></div>
         <div className="connect-links">
           {profileLinks.map(([label, href]) => <a key={label} href={href} target="_blank" rel="noreferrer"><span>{label}</span><b>↗</b></a>)}
-          <a href="/cv/"><span>Curriculum vitae</span><b>→</b></a>
           <a href="mailto:yiming.liu@sdstate.edu"><span>Email</span><b>↗</b></a>
         </div>
       </section>
