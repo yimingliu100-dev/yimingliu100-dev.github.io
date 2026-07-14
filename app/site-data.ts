@@ -50,13 +50,6 @@ export const publications = [
     href: "https://doi.org/10.1038/s41467-025-63660-3",
   },
   {
-    year: "2025",
-    journal: "Chemical Society Reviews",
-    title: "Reactive carbon capture using saline water: evaluation of prospective sources, processes, and products",
-    note: "Saline water as a carbon-management resource",
-    href: "https://doi.org/10.1039/D4CS00701H",
-  },
-  {
     year: "2023",
     journal: "Environmental Science & Technology",
     title: "Multistage surface-heated vacuum membrane distillation process enables high water recovery and excellent heat utilization",
