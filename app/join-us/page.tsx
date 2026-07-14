@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { PageHero, SiteFooter, SiteHeader } from "../site-shell";
+import { SiteFooter, SiteHeader } from "../site-shell";
 
 export const metadata: Metadata = { title: "Join Us | Yiming Liu Research Group", description: "Opportunities to study, research, and collaborate with the Yiming Liu Research Group." };
 
@@ -13,7 +13,6 @@ export default function JoinUsPage() {
   return (
     <main>
       <SiteHeader />
-      <PageHero eyebrow="Join us" title="Build the next generation of circular water systems." text="We welcome curious researchers who want to connect fundamental interfacial science with consequential environmental technologies." />
       <section className="section join-opportunities">
         <div className="join-grid">
           {opportunities.map(([number, title, text]) => <article key={title}><span>{number}</span><h2>{title}</h2><p>{text}</p></article>)}

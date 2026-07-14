@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { education, postdoctoralTraining, profileLinks } from "../site-data";
-import { PageHero, SiteFooter, SiteHeader } from "../site-shell";
+import { SiteFooter, SiteHeader } from "../site-shell";
 
 export const metadata: Metadata = {
   title: "Team | Yiming Liu Research Group",
@@ -12,7 +12,6 @@ export default function TeamPage() {
   return (
     <main>
       <SiteHeader />
-      <PageHero eyebrow="Team" title="People advancing circular water systems." text="Our group brings together interfacial science, materials design, and environmental engineering to recover resources and rethink water systems." />
       <section className="section pi-section">
         <div className="pi-portrait">
           <Image src="/yiming-liu.png" alt="Portrait of Yiming Liu" width={900} height={1125} className="pi-photo" priority />

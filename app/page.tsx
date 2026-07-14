@@ -8,7 +8,7 @@ export default function Home() {
     <main>
       <div className="home-masthead">
         <SiteHeader overlay />
-        <Image className="masthead-photo" src="/yiming-liu.png" alt="Yiming Liu in a natural landscape" fill priority sizes="100vw" />
+        <Image className="masthead-photo" src="/sdstate-campus-hero.jpg" alt="Aerial view of the South Dakota State University campus at sunrise" fill priority sizes="100vw" />
         <div className="masthead-wash" />
         <div className="masthead-content">
           <p>Yiming Liu Research Group</p>
