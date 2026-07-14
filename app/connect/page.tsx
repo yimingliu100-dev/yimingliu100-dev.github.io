@@ -8,7 +8,7 @@ export default function ConnectPage() {
   return (
     <main className="connect-page">
       <SiteHeader />
-      <PageHero eyebrow="Build what’s next" title="Let’s make water work in circles." text="I welcome conversations with researchers, students, and partners working on water–material interfaces, selective separations, and circular resource systems." />
+      <PageHero eyebrow="Build what’s next" title="Let’s make water work in circles." text="I welcome conversations with researchers, students, and partners working on material-water interfaces, critical-mineral separations, and brine concentration processes." />
       <section className="section connect-directory">
         <div className="connect-primary"><p>For research collaborations, speaking invitations, mentoring, and professional opportunities:</p><a className="button ivory" href="mailto:yiming.liu@sdstate.edu">yiming.liu@sdstate.edu <span>↗</span></a></div>
         <div className="connect-links">

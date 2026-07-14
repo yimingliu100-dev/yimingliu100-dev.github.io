@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 const title = "Yiming Liu — Interfacial Science for Circular Water Systems";
-const description = "Yiming Liu develops materials and processes for selective resource recovery, sustainable brine management, and circular water systems.";
+const description = "Yiming Liu develops materials and processes for critical mineral recovery, material-water interfaces, and brine concentration processes.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://yimingliu100-dev.github.io"),

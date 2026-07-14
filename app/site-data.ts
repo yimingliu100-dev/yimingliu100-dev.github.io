@@ -4,7 +4,7 @@ export const linkedin = "https://www.linkedin.com/in/yiming-liu-558a7198";
 export const researchAreas = [
   {
     number: "01",
-    title: "Selective resource recovery",
+    title: "Critical mineral recovery",
     text: "Engineering ligand-functionalized metal-organic frameworks and ion-exchange membranes to recover rare earth elements and lithium from complex brines.",
     tags: ["Rare earth elements", "Lithium", "MOFs & electrodialysis"],
     publications: [
@@ -14,7 +14,7 @@ export const researchAreas = [
   },
   {
     number: "02",
-    title: "Water–material interfaces",
+    title: "Material-water interface",
     text: "Understanding and controlling nucleation, scaling, and molecular transport where water meets membranes, electrodes, and heat-transfer surfaces.",
     tags: ["Interfacial science", "Electrochemistry", "Mineral scaling"],
     publications: [
@@ -24,7 +24,7 @@ export const researchAreas = [
   },
   {
     number: "03",
-    title: "Circular brine systems",
+    title: "Brine concentration process",
     text: "Reimagining hypersaline water as a source of water, energy, and materials through high-recovery separations and efficient process design.",
     tags: ["Membrane distillation", "Desalination", "Process intensification"],
     publications: [

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { researchAreas } from "../site-data";
 import { SiteFooter, SiteHeader } from "../site-shell";
 
-export const metadata: Metadata = { title: "Research | Yiming Liu", description: "Research on selective resource recovery, water–material interfaces, and circular brine systems." };
+export const metadata: Metadata = { title: "Research | Yiming Liu", description: "Research on critical mineral recovery, material-water interfaces, and brine concentration processes." };
 
 export default function ResearchPage() {
   return (

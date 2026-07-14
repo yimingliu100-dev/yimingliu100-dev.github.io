@@ -24,7 +24,7 @@ export default function Home() {
         <div>
           <h2>About our research</h2>
           <p className="lead">Welcome to the Liu Group at South Dakota State University. We are interested in understanding and controlling the moments where matter meets water.</p>
-          <p>We are a curious, collaborative research team working at the intersection of environmental engineering, interfacial science, and materials design. By connecting molecular-scale mechanisms with membrane, electrochemical, and thermal processes, we develop technologies for selective resource recovery, high-recovery desalination, scale prevention, and circular water systems.</p>
+          <p>We are a curious, collaborative research team working at the intersection of environmental engineering, interfacial science, and materials design. By connecting molecular-scale mechanisms with membrane, electrochemical, and thermal processes, we develop technologies for critical mineral recovery, material-water interface control, brine concentration, and scale prevention.</p>
           <div className="recruitment-note">
             <strong>We are recruiting.</strong>
             <p>We currently have openings for motivated Ph.D. students and are actively recruiting motivated M.S. and B.S. students. Interested students should email Dr. Yiming Liu at <a href="mailto:yiming.liu@sdstate.edu">yiming.liu@sdstate.edu</a> with a single PDF containing their CV and academic transcript, along with a brief statement of interest in the email.</p>
@@ -36,9 +36,9 @@ export default function Home() {
       <section className="lab-focus">
         <div className="focus-heading"><span>Research directions</span><h2>Science designed<br />for circularity.</h2></div>
         <div className="focus-grid">
-          <Link href="/research/"><span>01</span><h3>Selective resource recovery</h3><p>Recovering lithium and rare earth elements from complex water streams using selective membranes and functional materials.</p></Link>
-          <Link href="/research/"><span>02</span><h3>Water–material interfaces</h3><p>Controlling nucleation, scaling, and molecular transport at membranes, electrodes, and heat-transfer surfaces.</p></Link>
-          <Link href="/research/"><span>03</span><h3>Circular brine systems</h3><p>Transforming hypersaline water into a source of water, energy, and materials through efficient process design.</p></Link>
+          <Link href="/research/"><span>01</span><h3>Critical mineral recovery</h3><p>Recovering lithium and rare earth elements from complex water streams using selective membranes and functional materials.</p></Link>
+          <Link href="/research/"><span>02</span><h3>Material-water interface</h3><p>Controlling nucleation, scaling, and molecular transport at membranes, electrodes, and heat-transfer surfaces.</p></Link>
+          <Link href="/research/"><span>03</span><h3>Brine concentration process</h3><p>Transforming hypersaline water into a source of water, energy, and materials through efficient process design.</p></Link>
         </div>
       </section>
 
@@ -51,7 +51,7 @@ export default function Home() {
 
       <section className="lab-join">
         <div><span>Collaboration</span><h2>Interested in working together?</h2></div>
-        <p>I welcome conversations with researchers, students, and partners working on water–material interfaces, selective separations, and circular resource systems.</p>
+        <p>I welcome conversations with researchers, students, and partners working on material-water interfaces, critical-mineral separations, and brine concentration processes.</p>
         <Link href="/join-us/">Join the group <span>→</span></Link>
       </section>
       <SiteFooter />
