@@ -29,7 +29,7 @@ h1, h2, h3, blockquote { font-family: Georgia, "Times New Roman", serif; font-we
 .brand-copy strong, .brand-copy small { display: block; }
 .brand-copy strong { font-family: Georgia, serif; font-size: 18px; font-weight: 400; letter-spacing: .01em; }
 .brand-copy small { margin-top: 4px; font-size: 9px; text-transform: uppercase; letter-spacing: .1em; opacity: .72; }
-.main-nav { display: flex; align-items: center; gap: clamp(18px, 2.5vw, 38px); font-size: 12px; font-weight: 700; }
+.main-nav { display: flex; align-items: center; gap: clamp(18px, 2.2vw, 34px); font-size: 18px; font-weight: 700; }
 .main-nav a { padding: 12px 0; border-bottom: 2px solid transparent; transition: border-color .2s ease, color .2s ease; }
 .main-nav a:hover { color: var(--blue); border-bottom-color: var(--gold); }
 .site-header-overlay .main-nav a:hover { color: white; }
