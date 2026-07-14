@@ -23,8 +23,12 @@ export default function Home() {
         <div className="section-label">Welcome</div>
         <div>
           <h2>About our research</h2>
-          <p className="lead">We work at the intersection of environmental engineering, interfacial science, and materials design to advance selective separations and circular water systems.</p>
-          <p>Our research seeks to understand and control the moments where matter meets water. By connecting molecular-scale mechanisms with membrane, electrochemical, and thermal processes, we develop technologies for critical-mineral recovery, high-recovery desalination, and sustainable chemical production.</p>
+          <p className="lead">Welcome to the Liu Group at South Dakota State University. We are interested in understanding and controlling the moments where matter meets water.</p>
+          <p>We are a curious, collaborative research team working at the intersection of environmental engineering, interfacial science, and materials design. By connecting molecular-scale mechanisms with membrane, electrochemical, and thermal processes, we develop technologies for selective resource recovery, high-recovery desalination, scale prevention, and circular water systems.</p>
+          <div className="recruitment-note">
+            <strong>We are recruiting.</strong>
+            <p>We currently have openings for motivated Ph.D. students and are actively recruiting motivated M.S. and B.S. students. Interested students should email Dr. Yiming Liu at <a href="mailto:yiming.liu@sdstate.edu">yiming.liu@sdstate.edu</a> with a single PDF containing their CV and academic transcript, along with a brief statement of interest in the email.</p>
+          </div>
           <Link className="lab-link" href="/research/">Explore our research <span>→</span></Link>
         </div>
       </section>

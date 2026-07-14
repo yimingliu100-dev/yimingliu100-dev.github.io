@@ -20,7 +20,7 @@ export default function JoinUsPage() {
       </section>
       <section className="section join-contact">
         <div><p className="eyebrow light"><span /> Start a conversation</p><h2>Tell us what you want to explore.</h2></div>
-        <div><p>Please include your background, research interests, and the kind of opportunity or collaboration you are seeking.</p><a className="button ivory" href="mailto:yimingliu@rice.edu">yimingliu@rice.edu <span>↗</span></a></div>
+        <div><p>Please include your background, research interests, and the kind of opportunity or collaboration you are seeking.</p><a className="button ivory" href="mailto:yiming.liu@sdstate.edu">yiming.liu@sdstate.edu <span>↗</span></a></div>
       </section>
       <SiteFooter />
     </main>
