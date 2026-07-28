@@ -14,7 +14,7 @@ export default function TeamPage() {
       <SiteHeader />
       <section className="section pi-section">
         <div className="pi-portrait">
-          <Image src="/yiming-liu.png" alt="Portrait of Yiming Liu" width={900} height={1125} className="pi-photo" priority />
+          <Image src="/yiming-liu-headshot.jpg" alt="Portrait of Yiming Liu" width={1600} height={2135} className="pi-photo" priority />
         </div>
         <div className="pi-profile">
           <p className="eyebrow"><span /> Principal Investigator</p>
