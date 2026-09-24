@@ -8,7 +8,7 @@ export default function PublicationsPage() {
   return (
     <main className="dark-page">
       <SiteHeader />
-      <PageHero eyebrow="Research outputs" title="Research with real-world reach." text="Associated publications and presentations spanning critical mineral recovery, material-water interfaces, and brine concentration processes." />
+      <PageHero eyebrow="Research outputs" title="Research with real-world reach." text="Publications and presentations spanning electrical modulation, functional materials, selective resource recovery, and circular water separations." />
       <section className="section publication-section inner-section">
         <div className="publication-toolbar"><p>Associated publications</p><a className="button outline-light" href={scholar} target="_blank" rel="noreferrer">Complete publication list <span>↗</span></a></div>
         <div className="publication-list">

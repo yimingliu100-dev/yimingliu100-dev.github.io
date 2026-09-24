@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { profileLinks } from "../site-data";
 import { SiteFooter, SiteHeader } from "../site-shell";
 
-export const metadata: Metadata = { title: "Contact | Yiming Liu Research Group", description: "Contact Yiming Liu about research, collaboration, mentoring, and opportunities." };
+export const metadata: Metadata = { title: "Contact | The Liu Group — EMACS Lab", description: "Contact Yiming Liu about EMACS Lab research, collaboration, mentoring, and opportunities." };
 
 export default function ContactPage() {
   return (

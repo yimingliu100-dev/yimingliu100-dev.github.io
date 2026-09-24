@@ -4,8 +4,8 @@ import { education, postdoctoralTraining, profileLinks } from "../site-data";
 import { SiteFooter, SiteHeader } from "../site-shell";
 
 export const metadata: Metadata = {
-  title: "Team | Yiming Liu Research Group",
-  description: "Meet Yiming Liu, principal investigator of the Yiming Liu Research Group.",
+  title: "Team | The Liu Group — EMACS Lab",
+  description: "Meet Yiming Liu, principal investigator of the EMACS Lab.",
 };
 
 export default function TeamPage() {

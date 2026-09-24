@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { researchAreas } from "../site-data";
 import { SiteFooter, SiteHeader } from "../site-shell";
 
-export const metadata: Metadata = { title: "Research | Yiming Liu", description: "Research on critical mineral recovery, material-water interfaces, and brine concentration processes." };
+export const metadata: Metadata = { title: "Research | EMACS Lab", description: "EMACS Lab research in electrical and materials modulation for circular water separations." };
 
 export default function ResearchPage() {
   return (
@@ -30,12 +30,12 @@ export default function ResearchPage() {
         </div>
       </section>
       <section className="section method-section">
-        <p className="eyebrow light"><span /> How I work</p>
-        <h2>From molecular insight<br />to systems impact.</h2>
+        <p className="eyebrow light"><span /> How we work</p>
+        <h2>Modulate. Separate.<br />Circulate.</h2>
         <div className="method-grid">
-          <article><span>01</span><h3>Understand</h3><p>Reveal the mechanisms that govern nucleation, transport, selectivity, and surface behavior.</p></article>
-          <article><span>02</span><h3>Design</h3><p>Translate those mechanisms into functional membranes, sorbents, electrodes, and thermal interfaces.</p></article>
-          <article><span>03</span><h3>Integrate</h3><p>Connect material performance to practical processes for water, energy, and resource circularity.</p></article>
+          <article><span>01</span><h3>Modulate</h3><p>Apply electrical inputs and material chemistry to direct nucleation, transport, selectivity, and surface behavior.</p></article>
+          <article><span>02</span><h3>Separate</h3><p>Translate interfacial control into functional membranes, sorbents, electrodes, and thermal separation platforms.</p></article>
+          <article><span>03</span><h3>Circulate</h3><p>Integrate technologies that recover water and critical resources while reducing residual waste and energy demand.</p></article>
         </div>
       </section>
       <SiteFooter />

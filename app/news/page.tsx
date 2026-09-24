@@ -3,7 +3,7 @@ import Link from "next/link";
 import { newsItems } from "../site-data";
 import { SiteFooter, SiteHeader } from "../site-shell";
 
-export const metadata: Metadata = { title: "News | Yiming Liu Research Group", description: "Research news, publications, awards, and highlights from the Yiming Liu Research Group." };
+export const metadata: Metadata = { title: "News | The Liu Group — EMACS Lab", description: "Research news, publications, awards, and highlights from the EMACS Lab." };
 
 export default function NewsPage() {
   return (

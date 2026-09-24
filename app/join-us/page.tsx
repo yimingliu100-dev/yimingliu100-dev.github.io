@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { SiteFooter, SiteHeader } from "../site-shell";
 
-export const metadata: Metadata = { title: "Join Us | Yiming Liu Research Group", description: "Opportunities to study, research, and collaborate with the Yiming Liu Research Group." };
+export const metadata: Metadata = { title: "Join Us | The Liu Group — EMACS Lab", description: "Opportunities to study, research, and collaborate with the EMACS Lab." };
 
 const opportunities = [
   ["01", "Graduate researchers", "Students interested in environmental engineering, membrane science, electrochemistry, materials, and resource recovery are encouraged to get in touch."],
