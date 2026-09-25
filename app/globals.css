@@ -42,16 +42,13 @@ h1, h2, h3, blockquote { font-family: var(--font-display); font-weight: 500; }
 .masthead-photo { object-fit: cover; object-position: 50% 36%; filter: saturate(.75) contrast(1.04); }
 .masthead-wash { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(7,29,45,.93) 0%, rgba(7,29,45,.78) 38%, rgba(7,29,45,.26) 70%, rgba(7,29,45,.18) 100%); }
 .masthead-content { position: absolute; z-index: 2; left: clamp(28px, 8vw, 130px); bottom: clamp(90px, 15vh, 150px); max-width: 860px; }
-.masthead-content > p { margin: 0 0 24px; text-transform: uppercase; letter-spacing: .16em; font-family: var(--font-display); font-size: clamp(20px, 2vw, 28px); font-weight: 650; color: #e5f5f4; }
+.masthead-content > p { margin: 0 0 24px; text-transform: uppercase; letter-spacing: .25em; font-size: 12px; font-weight: 800; color: #cce5e5; }
 .masthead-content h1 { margin: 0; max-width: 820px; font-size: clamp(44px, 5.2vw, 76px); line-height: 1.03; letter-spacing: -.04em; text-shadow: 0 3px 30px rgba(0,0,0,.22); }
 .masthead-content .emacs-title { max-width: 980px; font-size: clamp(38px, 4.6vw, 68px); }
 .emacs-title strong { color: var(--aqua); font-weight: 650; }
 .masthead-rule { width: min(480px, 68vw); height: 4px; margin: 32px 0 23px; background: var(--gold); }
 .masthead-content > span { font-size: 12px; text-transform: uppercase; letter-spacing: .2em; }
-.scroll-cue { position: absolute; z-index: 2; bottom: 26px; left: 50%; width: 58px; height: 58px; display: grid; place-items: center; color: var(--navy); background: rgba(255,255,255,.94); border: 2px solid white; border-radius: 50%; box-shadow: 0 8px 24px rgba(0,0,0,.28); font-size: 29px; font-weight: 600; line-height: 1; transform: translateX(-50%); animation: scroll-cue-bob 1.8s ease-in-out infinite; transition: color .2s ease, background .2s ease, box-shadow .2s ease; }
-.scroll-cue:hover { color: white; background: var(--blue); box-shadow: 0 10px 30px rgba(0,0,0,.36); }
-@keyframes scroll-cue-bob { 0%, 100% { transform: translate(-50%, 0); } 50% { transform: translate(-50%, 7px); } }
-@media (prefers-reduced-motion: reduce) { .scroll-cue { animation: none; } }
+.scroll-cue { position: absolute; z-index: 2; bottom: 28px; left: 50%; width: 42px; height: 42px; display: grid; place-items: center; border: 1px solid rgba(255,255,255,.6); border-radius: 50%; transform: translateX(-50%); }
 
 .lab-welcome { padding: clamp(80px, 10vw, 145px) clamp(24px, 9vw, 145px); display: grid; grid-template-columns: .42fr 1.4fr; gap: clamp(45px, 8vw, 130px); background: var(--paper); }
 .section-label, .focus-heading > span, .news-heading span, .lab-join span { color: var(--blue); text-transform: uppercase; letter-spacing: .2em; font-size: 11px; font-weight: 800; }
